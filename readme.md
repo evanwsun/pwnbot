@@ -12,7 +12,9 @@ A friend and I decided to focus on trying to reach more people who may not know 
 It also redirects users to haveibeenpwned for more information. We think that with Slack's growing popularity, this is an easy way to reach hundreds of individuals without requiring them to visit another site or install anything. 
 
 You can check out the code at https://github.com/evanwsun/pwnbot
+
 The current bot is hosted at  https://glitch.com/edit/#!/pwnbot
+
 Screenshots of it working are available at https://imgur.com/a/yPWoF
 
 
