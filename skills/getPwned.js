@@ -1,7 +1,7 @@
 
 module.exports = function(controller) {
-    let appToken = ''; //insert app token here
-    let botToken = '';//insert bot token here
+    let appToken = process.env.appToken; //insert app token here
+    let botToken = process.env.botToken;//insert bot token here
     controller.on('team_join', function(bot, message) {
         let request = require('request');
         let email = "";
@@ -48,7 +48,7 @@ module.exports = function(controller) {
         })
     });
     controller.hears(['^pwned (.*)', '^pwned'], 'direct_message,direct_mention', function(bot, message) {
-
+      
         // carefully examine and
         // handle the message here!
         // Note: Platforms such as Slack send many kinds of messages, not all of which contain a text field!\
